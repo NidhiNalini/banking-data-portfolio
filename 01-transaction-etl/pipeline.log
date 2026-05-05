@@ -1,0 +1,19 @@
+2026-05-04 20:08:38,109 | INFO | EXTRACT | Reading source: data/transactions_raw.csv
+2026-05-04 20:08:38,115 | INFO | EXTRACT SUCCESS | 505 rows | ['transaction_id', 'account_id', 'transaction_date', 'amount', 'transaction_type', 'merchant_category', 'status']
+2026-05-04 20:08:38,121 | INFO | ==================================================
+2026-05-04 20:08:38,121 | INFO | PIPELINE START
+2026-05-04 20:08:38,121 | INFO | ==================================================
+2026-05-04 20:08:38,121 | INFO | EXTRACT | Reading source: data/transactions_raw.csv
+2026-05-04 20:08:38,124 | INFO | EXTRACT SUCCESS | 505 rows | ['transaction_id', 'account_id', 'transaction_date', 'amount', 'transaction_type', 'merchant_category', 'status']
+2026-05-04 20:08:38,127 | INFO | TRANSFORM | Starting with 505 rows
+2026-05-04 20:08:38,129 | INFO | TRANSFORM | Removed 5 duplicate transaction_ids
+2026-05-04 20:08:38,181 | WARNING | TRANSFORM | Rejected 10 rows: null amount
+2026-05-04 20:08:38,182 | INFO | TRANSFORM | Flagged 5 large transactions (>=5000 CAD)
+2026-05-04 20:08:38,182 | INFO | TRANSFORM SUCCESS | Clean: 490 | Rejected: 10
+2026-05-04 20:08:38,191 | INFO | AUDIT | Rejected records saved to data/rejected_transactions.csv
+2026-05-04 20:08:38,191 | INFO | LOAD | Connecting to: data/transactions_clean.db
+2026-05-04 20:08:38,194 | INFO | LOAD | Schema verified / created
+2026-05-04 20:08:38,205 | INFO | LOAD SUCCESS | Inserted 490 new rows | Total: 490
+2026-05-04 20:08:38,218 | INFO | ==================================================
+2026-05-04 20:08:38,218 | INFO | PIPELINE COMPLETE | 490 rows loaded
+2026-05-04 20:08:38,218 | INFO | ==================================================
