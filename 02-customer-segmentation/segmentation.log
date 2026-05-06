@@ -1,0 +1,30 @@
+2026-05-05 21:18:36,723 | INFO | ================================================== SEGMENTATION START
+2026-05-05 21:18:36,723 | INFO | EXTRACT | Reading: ../01-transaction-etl/data/transactions_clean.db
+2026-05-05 21:18:36,784 | INFO | EXTRACT SUCCESS | 288 completed transactions
+2026-05-05 21:18:36,784 | INFO | TRANSFORM | Computing RFM
+2026-05-05 21:18:36,843 | INFO | TRANSFORM | RFM for 50 accounts
+2026-05-05 21:18:36,843 | INFO | TRANSFORM | Scoring RFM dimensions
+2026-05-05 21:18:36,873 | INFO | LOAD | Schema created
+2026-05-05 21:18:36,894 | INFO | LOAD | Customer profiles loaded
+2026-05-05 21:18:36,915 | INFO | LOAD | 50 RFM scores loaded
+2026-05-05 21:18:36,917 | INFO | SEGMENTATION COMPLETE
+2026-05-05 21:20:35,306 | INFO | ================================================== SEGMENTATION START
+2026-05-05 21:20:35,307 | INFO | EXTRACT | Reading: ../01-transaction-etl/data/transactions_clean.db
+2026-05-05 21:20:35,316 | INFO | EXTRACT SUCCESS | 288 completed transactions
+2026-05-05 21:20:35,317 | INFO | TRANSFORM | Computing RFM
+2026-05-05 21:20:35,344 | INFO | TRANSFORM | RFM for 50 accounts
+2026-05-05 21:20:35,345 | INFO | TRANSFORM | Scoring RFM dimensions
+2026-05-05 21:20:35,362 | INFO | LOAD | Schema created
+2026-05-05 21:20:35,391 | INFO | LOAD | Customer profiles loaded
+2026-05-05 21:20:35,421 | INFO | LOAD | 50 RFM scores loaded
+2026-05-05 21:20:35,421 | INFO | SEGMENTATION COMPLETE
+2026-05-05 21:22:57,814 | INFO | ================================================== SEGMENTATION START
+2026-05-05 21:22:57,815 | INFO | EXTRACT | Reading: ../01-transaction-etl/data/transactions_clean.db
+2026-05-05 21:22:57,821 | INFO | EXTRACT SUCCESS | 288 completed transactions
+2026-05-05 21:22:57,822 | INFO | TRANSFORM | Computing RFM
+2026-05-05 21:22:57,840 | INFO | TRANSFORM SUCCESS | RFM computed for 50 accounts
+2026-05-05 21:22:57,840 | INFO | TRANSFORM | Scoring RFM
+2026-05-05 21:22:57,883 | INFO | LOAD | Schema created successfully
+2026-05-05 21:22:57,907 | INFO | LOAD | Customers loaded
+2026-05-05 21:22:57,928 | INFO | LOAD | 50 RFM records loaded
+2026-05-05 21:22:57,954 | INFO | SEGMENTATION COMPLETE
